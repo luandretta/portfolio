@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:ital@1&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    outline: solid red 1px;
+}
+
+body {
+    max-width: 2000px;
+    min-height: 100vh;
+    font-family: "Lora", serif;
+    color: white;
+    margin: 0 auto;
+}
+
+/* About */
+.container {
+    min-width: 100vw;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+#profile {
+    margin-top: 50px;
+    color: black;
+    text-align: center;
+    min-height: 250px;
+}
+
+#about {
+    background-color: black;
+    color: white; 
+    margin-left: 0;
+    margin-right: 0;
+}
